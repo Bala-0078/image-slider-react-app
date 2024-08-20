@@ -1,0 +1,31 @@
+.car-images{
+  display: block;
+  width: 700px;
+  height: 400px;
+  object-fit:fill;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.images{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+button{
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  background-color: #4285F4;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+button:hover{
+  color: white;
+}
